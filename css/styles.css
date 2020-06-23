@@ -1,0 +1,254 @@
+body {
+  background-color: #3388aa;
+  margin: 0;
+  text-align: center;
+}
+
+div {
+  background-color: #bbeeff;
+  margin: 0;
+}
+
+h1 {
+  margin: 0px;
+  padding-top: 20px;
+  /*font-family: monospace;*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 5em;
+}
+
+h2 {
+  color: #dd4499;
+  padding-top: 20px;
+  font-weight: normal;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  /*2nd is backup*/
+}
+
+h3 {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  /*2nd is backup*/
+  color: #eeeeee;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  /*2nd is backup*/
+  color: #dd4499;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+p {
+  display: inline-block;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.25rem;
+  color: #550044;
+  line-height: 1.3;
+}
+
+a {
+  display: inline-block;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-decoration: none;
+}
+
+td {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.2;
+}
+
+hr {
+  border-color: #442E5B;
+  border-style: none;
+  border-top-style: dashed;
+  border-width: 8px;
+  border-top-width: medium;
+  height: 0px;
+  width: 5%;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/*Class identifiers*/
+.top-container {
+  background-color: #ffffee;
+  margin-right: 50%;
+  height: 200px;
+}
+
+.upper-middle-container {
+  background-color: #ff66bb;
+  height: 200px;
+  width: 50%;
+  margin-left: 50%;
+  position: relative;
+}
+
+.mid-middle-container {
+  background-color: #ffee44;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #ff88cc;
+  display: inline-block;
+}
+
+.upper-bottom-container {
+  display: inline-block;
+  margin-top: -4px;
+}
+
+.middle-bottom-container {
+  display: block;
+  width: 100%;
+  margin-top: -4px;
+}
+
+.bottom-container {
+  display: inline-block;
+  background-color: #442E5B;
+  width: 100%;
+}
+
+.red-container {
+  background-color: #442E5B;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  height: 100px;
+  width: 100px;
+}
+
+.blue-container {
+  background-color: #3388aa;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+.yellow-container {
+  background-color: #ffee44;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.skills {
+  background-color: inherit;
+}
+
+.skill-row {
+  background-color: inherit;
+  width: 50%;
+  margin: 50px auto 50px auto;
+}
+
+.wanted {
+  position: absolute;
+  height: 100%;
+  right: 10%;
+}
+
+.trade {
+  position: absolute;
+  left: 10%;
+  height: 100%;
+}
+
+.buda {
+  width: 100%;
+  margin: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.sim-container {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.sim-container img {
+  width: 800px;
+  height: 800px;
+  position: relative;
+  margin: -150px -225px -225px -265px
+}
+
+.skills-table {
+  display: inline-block;
+  background-color: #ffee44;
+}
+
+.contact-me-container {
+  padding: 20px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+}
+
+.disc {
+  height: 150px;
+  float: right;
+  padding-left: 20px;
+}
+
+.text_effect {
+  font-style: oblique;
+}
+
+.contact-text {
+  text-align: left;
+  display: block;
+}
+
+.footer {
+  color: #eeeeee;
+  font-size: 12px;
+}
+
+.footer-link {
+  color: #ddcc88;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+}
+
+.btn {
+  margin: 10px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #242E6B;
+  letter-spacing: 3px;
+  padding: 13px 32px 10px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #442E5B;
+  color: #FFFFFF;
+}
